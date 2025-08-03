@@ -67,6 +67,8 @@ suggesting a need for focused programs to address gender or regional gaps, possi
 - **Python**: For data processing and machine learning :[Primary_analysis.ipynb](Primary_analysis.ipynb).
 - **Power BI**: For dashboards [Capstone_Dashboard.pbix](primary_power.pbix).
 - **GitHub**: For version control.
+  ## for additional file feel free to check out .
+   Access additional files: [Google Drive Folder](https://drive.google.com/drive/folders/1r9lMAnA-tQtlvgIGwmY6E5leH4CDrTA6?usp=drive_link) for the presentation and dashboard.
 
 - **Mobile-Based Solutions**: Given Rwanda’s mobile penetration, a mobile app for real-time attendance tracking could enhance data accuracy and parental involvement.
 
