@@ -16,21 +16,23 @@ The `primary.csv` dataset was loaded using a custom `load_data` function,
 skipping initial rows and renaming columns such as  `gar_both`, `nar_both`, `province_district`. 
 Initial checks included column names, a preview of the data, and info on missing values and data types,
  confirming 35 entries with some missing NAR(Net_Attendance_Rate) and Gross_Attendance_Rate(GAR) values.
+
+ [Load datset](Load_datasetPNG)
  
  ### 3. Data Cleaning
 The `clean_data` function handled missing values by dropping rows with `NaN`, 
 converted numeric columns to appropriate types, and removed unrealistic outliers (e.g., GAR > 200% or NAR > 100%). 
-Post-cleaning, the dataset had 30 complete records, with statistics showing NAR ranging from 78.5% to 96% and GAR from 125% to 156.8%.
+Post-cleaning, the dataset had 30 complete records, with statistics showing NAR ranging from 78.5% to 96% and GAR from 125% to 156.8%.[Data cleaning](clean_data.PNG)
 
 ### 4. Exploratory Data Analysis (EDA)
 EDA involved preparing data with province and year assignments ( 2013–2018) and generating visualizations:
 - A scatter plot clustered districts by GAR and NAR, revealing patterns such as cluster 2 with higher disparity.
-- Summary statistics highlighted mean NAR at 89.75% and a gender parity index near 1.02.
+- Summary statistics highlighted mean NAR at 89.75% and a gender parity index near 1.02.[cluster](cluster_codes.PNG)
   
 ### 5. Machine Learning Analysis
 Unsupervised learning was applied using K-means clustering on scaled features (GAR and NAR for both sexes, males, and females). 
 The model was evaluated with a silhouette score of 0.43, indicating moderate cluster separation.
- This helped identify district groups for targeted interventions.
+ This helped identify district groups for targeted interventions.[Model evaluation](step7_model_evaluation.PNG)
 
 ### 6. Transition to Power BI
 The processed data was exported as `processed_data.csv` using `df.to_csv()`. In Power BI, a dashboard was built with:
