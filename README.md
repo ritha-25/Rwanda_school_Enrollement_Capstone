@@ -9,7 +9,7 @@ The process began by importing essential Python libraries in a Jupyter Notebook 
 - `matplotlib` and `seaborn` for visualizations.
 - `scikit-learn` for machine learning (clustering and evaluation).
 - Warnings were suppressed, and a whitegrid style was set for clear plots.
-  ![Importing libraries](importlibraries.png)
+   [Library](importlibraries.png)
   
   ### 2. Loading and Exploring Data
 The `primary.csv` dataset was loaded using a custom `load_data` function, 
