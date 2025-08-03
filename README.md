@@ -9,6 +9,7 @@ The process began by importing essential Python libraries in a Jupyter Notebook 
 - `matplotlib` and `seaborn` for visualizations.
 - `scikit-learn` for machine learning (clustering and evaluation).
 - Warnings were suppressed, and a whitegrid style was set for clear plots.
+  ![Importing libraries](importlibraries.png)
   
   ### 2. Loading and Exploring Data
 The `primary.csv` dataset was loaded using a custom `load_data` function, 
@@ -45,10 +46,10 @@ A `year` slicer added interactivity.
 - **GitHub**: For version control.
 
 ## Screenshots
-- ![Line Chart](./screenshots/line_chart.png): Shows NAR trend.
-- ![Scatter Chart](./screenshots/scatter_chart.png): Highlights cluster 2 disparity.
-- ![Column Chart](./screenshots/column_chart.png): Notes Northern’s NAR.
-- ![Max Disparity Card](./screenshots/max_disparity_card.png): Displays max disparity.
+- ![Line Chart](line_chart.png): Shows NAR trend.
+- ![Scatter Chart](scatter_chart.png): Highlights cluster 2 disparity.
+- ![Column Chart](column_chart.png): Notes Northern’s NAR.
+- ![Max Disparity Card](Max_Disparity_Card.png): Displays max disparity.
 
 ## Future recommendations
  Based on the analysis, here are my insights and recommendations:
