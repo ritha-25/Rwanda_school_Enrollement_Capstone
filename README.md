@@ -42,11 +42,6 @@ The processed data was exported as `processed_data.csv` using `df.to_csv()`. In 
 - A Max Disparity card at 20%.
 A `year` slicer added interactivity.
 
-## Tools and Technologies
-- **Python**: For data processing and machine learning .
-- **Power BI**: For dashboards .
-- **GitHub**: For version control.
-
 ## Screenshots
 [Line Chart](line_chart.PNG): Shows NAR trend.
 [Scatter Chart](scatter_chart.PNG): Highlights cluster 2 disparity.
@@ -64,5 +59,10 @@ suggesting a need for focused programs to address gender or regional gaps, possi
  sharing best practices like teacher training or infrastructure investment with lower-performing areas.
 - **Predictive Modeling**: The moderate silhouette score (0.43) indicates room for improvement in clustering.
  Integrating predictive models could forecast attendance drops, enabling proactive measures.
+
+## Tools and Technologies
+- **Python**: For data processing and machine learning :[Primary_analysis.ipynb](Primary_analysis.ipynb).
+- **Power BI**: For dashboards [Capstone_Dashboard.pbix](primary_power.pbix).
+- **GitHub**: For version control.
 - **Mobile-Based Solutions**: Given Rwanda’s mobile penetration, a mobile app for real-time attendance tracking could enhance data accuracy and parental involvement.
 
