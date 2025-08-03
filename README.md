@@ -48,11 +48,11 @@ A `year` slicer added interactivity.
 - **GitHub**: For version control.
 
 ## Screenshots
-[Line Chart](line_chart.png): Shows NAR trend.
-[Scatter Chart](scatter_chart.png): Highlights cluster 2 disparity.
-[Column Chart](column_chart.png): Notes Northern’s NAR.
-[Max Disparity Card](Max_Disparity_Card.png): Displays max disparity.
-[Slicer](slicer_province.png): Shows slicer province.
+[Line Chart](line_chart.PNG): Shows NAR trend.
+[Scatter Chart](scatter_chart.PNG): Highlights cluster 2 disparity.
+[Column Chart](column_chart.PNG): Notes Northern’s NAR.
+[Max Disparity Card](Max_Disparity_Card.PNG): Displays max disparity.
+[Slicer](slicer_province.PNG): Shows slicer province.
 
 ## Future recommendations
  Based on the analysis, here are my insights and recommendations:
