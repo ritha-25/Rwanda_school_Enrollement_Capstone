@@ -2,6 +2,9 @@
 
  ## The Overview Of project.
  Welcome to the Rwanda School Enrollment Capstone Project!This Initiative analyzes attendance trends and gender disparities in primary school education Rwanda from 2013 to 2023.The primary focus is on understanding how well children attend school (it is measured by the Net Attendance Rate,or NAR) and identifying disparities,especially accross provinces and clusters.This project stems from the need to address educational equity,using data collected from reputable sources that is statistics.gov.rw.The goal is to provide the actionale insights for policymakers and educators to improve attendance and , ultimately,enrollement outcomes.
+ ## Data Sources
+- Dataset: [National Institute of Statistics of Rwanda](https://www.statistics.gov.rw/) – Provides primary school enrollment data for 2013–2018.
+
 
  ### 1. Setting Up Python Environment
 The process began by importing essential Python libraries in a Jupyter Notebook (`Primary_analysis.ipynb`):
@@ -64,5 +67,6 @@ suggesting a need for focused programs to address gender or regional gaps, possi
 - **Python**: For data processing and machine learning :[Primary_analysis.ipynb](Primary_analysis.ipynb).
 - **Power BI**: For dashboards [Capstone_Dashboard.pbix](primary_power.pbix).
 - **GitHub**: For version control.
+
 - **Mobile-Based Solutions**: Given Rwanda’s mobile penetration, a mobile app for real-time attendance tracking could enhance data accuracy and parental involvement.
 
