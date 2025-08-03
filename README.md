@@ -17,12 +17,12 @@ skipping initial rows and renaming columns such as  `gar_both`, `nar_both`, `pro
 Initial checks included column names, a preview of the data, and info on missing values and data types,
  confirming 35 entries with some missing NAR(Net_Attendance_Rate) and Gross_Attendance_Rate(GAR) values.
 
- [Load datset](Load_datasetPNG)
+ [Load datset](loading.PNG)
  
  ### 3. Data Cleaning
 The `clean_data` function handled missing values by dropping rows with `NaN`, 
 converted numeric columns to appropriate types, and removed unrealistic outliers (e.g., GAR > 200% or NAR > 100%). 
-Post-cleaning, the dataset had 30 complete records, with statistics showing NAR ranging from 78.5% to 96% and GAR from 125% to 156.8%.[Data cleaning](clean_data.PNG)
+Post-cleaning, the dataset had 30 complete records, with statistics showing NAR ranging from 78.5% to 96% and GAR from 125% to 156.8%.[Data cleaning](cleaning.PNG)
 
 ### 4. Exploratory Data Analysis (EDA)
 EDA involved preparing data with province and year assignments ( 2013–2018) and generating visualizations:
